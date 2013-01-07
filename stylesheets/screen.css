@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 9, ../sass/screen.scss */
 body {
-  background: -webkit-radial-gradient(rgba(255, 255, 255, 0.7), rgba(221, 216, 236, 0.5)) fixed, url("../bgnoise_lg.png");
+  background: -webkit-radial-gradient(rgba(255, 255, 255, 0.7), rgba(221, 216, 236, 0.3)) fixed, url("../white_carbon.png");
 }
 
 /* line 12, ../sass/screen.scss */
@@ -78,8 +78,32 @@ body {
   margin: 20px auto;
 }
 
+/* line 15, ../sass/screen.scss */
+header {
+  margin-bottom: 20px;
+}
+
 /* line 16, ../sass/screen.scss */
 h1 {
-  font: lighter 48px/60px "helvetica";
-  color: #333;
+  font: italic lighter 48px/60px "georgia";
+  color: #555;
+  text-shadow: 0 1px 0 #fff;
+}
+
+/* line 19, ../sass/screen.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 20, ../sass/screen.scss */
+h3 a {
+  font: lighter 18px/40px "opensans";
+  color: #999;
+  text-shadow: 0 1px 0 #fff;
+  text-transform: uppercase;
+}
+
+/* line 21, ../sass/screen.scss */
+h3 a:hover {
+  color: #7ad;
 }
