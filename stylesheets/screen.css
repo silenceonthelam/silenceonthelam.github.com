@@ -87,44 +87,47 @@ header {
 
 /* line 15, ../sass/screen.scss */
 h1 {
-  font: lighter 120px/120px "Bender";
+  font: 80px/120px "Dancing Script", "Marketing Script", "opensans", "League Gothic";
   color: rgba(230, 99, 100, 0.8);
-  text-shadow: 1px 2px 0px rgba(255, 255, 255, 0.4), 4px 6px 1px rgba(230, 99, 100, 0.5);
-  letter-spacing: 1px;
+  text-shadow: 1px 2px 0px rgba(255, 255, 255, 0.4), 2px 3px 1px rgba(230, 99, 100, 0.5);
+  letter-spacing: -1px;
+  font-weight: 500;
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 a {
   text-decoration: none;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 22, ../sass/screen.scss */
 h3 {
   display: inline-block;
 }
 
-/* line 21, ../sass/screen.scss */
+/* line 23, ../sass/screen.scss */
 h3 a {
-  font: lighter 18px/40px "opensans";
+  font: 18px/40px "Open Sans", sans-serif;
   color: #999;
   text-shadow: 0 1px 0 #fff;
   text-transform: uppercase;
+  font-weight: 400;
 }
 
-/* line 22, ../sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 h3 a:hover {
   color: #70bbd0;
 }
 
-/* line 23, ../sass/screen.scss */
+/* line 25, ../sass/screen.scss */
 h4 {
-  font: lighter 16px/30px "opensans";
+  font: 16px/30px "Open Sans", sans-serif;
   color: #999;
   text-shadow: 0 1px 0 #fff;
   text-transform: uppercase;
+  font-weight: 400;
 }
 
-/* line 24, ../sass/screen.scss */
+/* line 26, ../sass/screen.scss */
 .project {
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5));
   margin-bottom: 10px;
@@ -136,14 +139,14 @@ h4 {
   width: 480px;
 }
 
-/* line 29, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 .description {
   font-style: italic;
   margin-bottom: 1em;
   width: 34em;
 }
 
-/* line 30, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 .disclaimer {
   font-style: italic;
   margin-bottom: 2em;
@@ -151,7 +154,7 @@ h4 {
   color: #999;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 .change {
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3));
   margin-bottom: 10px;
