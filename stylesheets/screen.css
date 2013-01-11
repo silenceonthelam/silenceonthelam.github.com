@@ -117,7 +117,7 @@ h3 a {
 
 /* line 24, ../sass/screen.scss */
 h3 a:hover {
-  color: #d070bb;
+  color: rgba(230, 99, 100, 1);
 }
 
 /* line 25, ../sass/screen.scss */
