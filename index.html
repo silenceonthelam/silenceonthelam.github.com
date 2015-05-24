@@ -1,74 +1,185 @@
 <!DOCTYPE HTML>
-<html lang="en-US">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title></title>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,700,300,600|Dancing+Script:400,700' rel='stylesheet' type='text/css'>
-	<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<meta charset="utf-8" />
+	<meta name="author" content"Jessie Schalles" />
+	<meta name="description" content="List of projects by front end engineer and euphonium player, Jessie Schalles" />
+	<meta name="keywords" content="Jessie Schalles, web audio API, css, javascript, react, reactjs, flux, synthesizer, dtmf, euphonium, portfolio, front end engineer, pittsburgh" />
+	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0;" />
+	<title>Jessie Schalles | Projects</title>
+	<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="main.css" />
 </head>
 <body>
-	
-<div class="container">
-	<header>
-		<h1>Projects</h1>
-		<p class="disclaimer">Most of these projects are works-in-progress and so far only work in newer webkit browsers.</p>
-	</header>
-	<section>
-		<ul id="projects">
-			<li class="project">
-				<h3><a href="http://silenceonthelam.github.com/TUMP/">TUMP</a></h3>
-				<p class="description">
-					TUMP is a synthesizer created with the Web Audio API. It allows the user to select from four types of oscillators
-					and four temperaments. It has 88 keys and a slider device for switching octaves on more narrow monitors.
-					There is also a volume control and a tuning control.
-				</p>
-				<h4>Upcoming Changes</h4>
-				<ul>
-					<li class="change">Explanation of Temperaments</li>
-					<li class="change">UI Redesign</li>
-					<li class="change">More responsive UI</li>
-					<li class="change">UI Browser Compatibility</li>
-					<li class="change">Custom Timbres</li>
-				</ul>
-			</li>
-			<li class="project">
-				<h3><a href="http://silenceonthelam.github.com/PhoEdit/">PhoEdit</a></h3>
-				<p class="description">
-					Dynamically adjust various aspects of a photo, such as opacity, saturation, and blur
-					with CSS filters.
-				</p>
-				<h4>Upcoming Changes</h4>
-				<ul>
-					<li class="change">More responsive UI</li>
-					<li class="change">UI Browser Compatibility</li>
-				</ul>
-			</li>
-			<li class="project">
-				<h3><a href="http://silenceonthelam.github.com/webAudioPhone/">Web Audio Phone</a></h3>
-				<p class="description">
-					The Web Audio Phone is a smaller project that uses the Web Audio API to create
-					tones with <a href="http://en.wikipedia.org/wiki/DTMF">DTMF</a>.
-				</p>
-			</li>
-		</ul>
-	</section>
-	<footer></footer>
-</div>
+	<h1 class="header">
+		<span class="header__name">Jessie Schalles</span> Projects
+	</h1>
+
+	<ul class="projects">
+		<li class="project">
+			<h3 class="project__header">React Piano</h3>
+			<div class="project__wrapper">
+				<figure class="project__figure">
+					<div class="project__image">
+						<img alt="React Piano" src="imgs/react-piano.jpg" />
+					</div>
+					<div class="project__buttons">
+						<button class="project__button"><a class="project__button__link" href="https://github.com/silenceonthelam/ReactPiano">repo</a></button>
+						<button class="project__button"><a class="project__button__link" href="http://silenceonthelam.github.com/ReactPiano/">project</a></button>			
+					</div>
+				</figure>
+				<div class="project__info">
+					<h4 class="project__list__head">Technologies Used</h4>
+					<ul class="project__list">
+						<li class="project__list__item">HTML</li>
+						<li class="project__list__item">CSS</li>
+						<li class="project__list__item">JS</li>
+						<li class="project__list__item">React</li>
+						<li class="project__list__item">Flux</li>
+						<li class="project__list__item">Web Audio API</li>
+						<li class="project__list__item">Web MIDI API</li>
+						<li class="project__list__item">Web Sockets</li>
+					</ul>
+					<p class="project__description">
+						<span class="project__description__year">2015 (in-progress)</span>
+						This project is currently in progress to be presented during my talk, "Synthesizing a Good Time with the Web Audio API", 
+						at Pittsburgh Tech Fest on June 13th, 2015.
+					</p>
+				</div>
+			</div>
+		</li>
+		<li class="project">
+			<h3 class="project__header">Portfolio</h3>
+			<div class="project__wrapper">
+				<figure class="project__figure">
+					<div class="project__image">
+						<img alt="Old Portfolio" src="imgs/old-portfolio.jpg" />
+					</div>
+					<div class="project__buttons">
+						<button class="project__button--disabled">repo</button>
+						<button class="project__button"><a class="project__button__link" href="http://jessieschalles.com">project</a></button>				
+					</div>
+				</figure>
+				<div class="project__info">
+					<h4 class="project__list__head">Technologies Used</h4>
+					<ul class="project__list">
+						<li class="project__list__item">HTML</li>
+						<li class="project__list__item">CSS</li>
+						<li class="project__list__item">JS</li>
+						<li class="project__list__item">jQuery</li>
+						<li class="project__list__item">jQ Masonry</li>
+						<li class="project__list__item">Php</li>
+					</ul>
+					<p class="project__description">
+						<span class="project__description__year">Late&ndash;2012</span>
+
+						My older portfolio site. 
+						Developed to showcase current (past) projects and to push the limits of CSS.
+					</p>
+				</div>
+			</div>
+		</li>
+		<li class="project">
+			<h3 class="project__header">TUMP</h3>
+			<div class="project__wrapper">
+				<figure class="project__figure">
+					<div class="project__image">
+						<img alt="Tump" src="imgs/tump.jpg" />
+					</div>
+					<div class="project__buttons">
+						<button class="project__button"><a class="project__button__link" href="https://github.com/silenceonthelam/TUMP">repo</a></button>
+						<button class="project__button"><a class="project__button__link" href="http://silenceonthelam.github.com/TUMP/">project</a></button>		
+					</div>
+				</figure>
+				<div class="project__info">
+					<h4 class="project__list__head">Technologies Used</h4>
+					<ul class="project__list">
+						<li class="project__list__item">HTML</li>
+						<li class="project__list__item">CSS</li>
+						<li class="project__list__item">JS</li>
+						<li class="project__list__item">jQuery</li>
+						<li class="project__list__item">Web Audio API</li>
+					</ul>
+					<p class="project__description">
+						<span class="project__description__year">Late&ndash;2012</span>
+
+						TUMP is a synthesizer created with the Web Audio API. It allows the user to select from four types of oscillators and four temperaments. It has 88 keys and a slider device for switching octaves on more narrow monitors. There is also a volume control and a tuning control.
+					</p>
+				</div>
+			</div>
+		</li>
+		<li class="project">
+			<h3 class="project__header">Web Audio Phone</h3>
+			<div class="project__wrapper">
+				<figure class="project__figure">
+					<div class="project__image">
+						<img alt="Web Audio Phone" src="imgs/web-audio-phone.jpg" />
+					</div>
+					<div class="project__buttons">
+						<button class="project__button"><a class="project__button__link" href="https://github.com/silenceonthelam/webAudioPhone">repo</a></button>
+						<button class="project__button"><a class="project__button__link" href="http://silenceonthelam.github.com/webAudioPhone/">project</a></button>				
+					</div>
+				</figure>
+				<div class="project__info">
+					<h4 class="project__list__head">Technologies Used</h4>
+					<ul class="project__list">
+						<li class="project__list__item">HTML</li>
+						<li class="project__list__item">CSS</li>
+						<li class="project__list__item">JS</li>
+						<li class="project__list__item">jQuery</li>
+						<li class="project__list__item">Web Audio API</li>
+					</ul>
+					<p class="project__description">
+						<span class="project__description__year">Late&ndash;2012</span>
+
+						The Web Audio Phone is a smaller project that accurately recreates
+						<a href="http://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling">DTMF</a>
+						tones using the Web Audio API.
+					</p>
+				</div>
+			</div>
+		</li>
+		<li class="project">
+			<h3 class="project__header">PhoEdit</h3>
+			<div class="project__wrapper">
+				<figure class="project__figure">
+					<div class="project__image">
+						<img alt="Phoedit" src="imgs/pho-edit.jpg" />
+					</div>
+					<div class="project__buttons">
+						<button class="project__button"><a class="project__button__link" href="https://github.com/silenceonthelam/PhoEdit">repo</a></button>
+						<button class="project__button"><a class="project__button__link" href="http://silenceonthelam.github.com/PhoEdit/">project</a></button>			
+					</div>
+				</figure>
+				<div class="project__info">
+					<h4 class="project__list__head">Technologies Used</h4>
+					<ul class="project__list">
+						<li class="project__list__item">HTML</li>
+						<li class="project__list__item">CSS</li>
+						<li class="project__list__item">JS</li>
+						<li class="project__list__item">jQuery</li>
+					</ul>
+					<p class="project__description">
+						<span class="project__description__year">Late&ndash;2012</span>
+
+						Dynamically adjust various aspects of a photo, such as opacity, saturation, and blur with CSS filters.
+					</p>
+				</div>
+			</div>
+		</li>
+	</ul>
 
 <script type="text/javascript">
+	var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-37469464-1']);
+		_gaq.push(['_setDomainName', 'github.com']);
+		_gaq.push(['_trackPageview']);
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-37469464-1']);
-  _gaq.push(['_setDomainName', 'github.com']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
 </script>
-
 </body>
 </html>
