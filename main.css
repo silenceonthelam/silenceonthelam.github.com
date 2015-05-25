@@ -34,6 +34,20 @@ img {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
+.sub-header {
+	font-size: 28px;
+	font-weight: 300;
+	margin: 60px 0 30px;
+	text-align: center;
+}
+.sub-header__name {
+	color: #a9b0b2;
+	display: block;
+	font-size: 10.5px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
 .projects {
 	margin: auto;
 	max-width: 800px;
@@ -46,6 +60,9 @@ img {
 	margin-top: 0;
 	margin-bottom: 0px;
 	padding: 0 0 60px;
+}
+.project:last-of-type {
+	border-bottom: none;
 }
 .project__wrapper {
 	display: flex;
