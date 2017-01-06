@@ -1,3 +1,3 @@
 # Projects
 
-http://silenceonthelam.github.io/
+View at http://silenceonthelam.github.io/

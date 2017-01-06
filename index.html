@@ -2,12 +2,12 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta name="author" content"Jessie Schalles" />
+	<meta name="author" content="Jessie Schalles" />
 	<meta name="description" content="List of projects by front end engineer and euphonium player, Jessie Schalles" />
-	<meta name="keywords" content="Jessie Schalles, web audio API, css, javascript, react, reactjs, flux, synthesizer, dtmf, euphonium, portfolio, front end engineer, pittsburgh" />
-	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0;" />
+	<meta name="keywords" content="Jessie Schalles, web audio API, css, javascript, react, reactjs, flux, redux, synthesizer, dtmf, euphonium, portfolio, front end engineer" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Jessie Schalles | Projects</title>
-	<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=Roboto:300,600" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="main.css" />
 </head>
 <body>
@@ -15,14 +15,46 @@
 		<span class="header__name">Jessie Schalles</span> Projects
 	</h1>
 
-
 	<ul class="projects">
 		<li class="project">
+			<h3 class="project__header">Additive Synthesizer</h3>
+			<div class="project__wrapper">
+				<figure class="project__figure">
+					<div class="project__image">
+						<img alt="Additive Synthesizer" src="imgs/additive-synth.jpg" />
+					</div>
+					<div class="project__buttons">
+						<button class="project__button"><a class="project__button__link" href="https://github.com/silenceonthelam/additive-synth/">repo</a></button>
+						<button class="project__button"><a class="project__button__link" href="http://silenceonthelam.github.io/additive-synth/">project</a></button>	
+					</div>
+				</figure>
+				<div class="project__info">
+					<h4 class="project__list__head">Technologies Used</h4>
+					<ul class="project__list">
+						<li class="project__list__item">HTML</li>
+						<li class="project__list__item">SCSS</li>
+						<li class="project__list__item">JS</li>
+						<li class="project__list__item">React</li>
+						<li class="project__list__item">Redux</li>
+						<li class="project__list__item">Web Audio API</li>
+						<li class="project__list__item">Webpack</li>
+					</ul>
+					<p class="project__description">
+						<span class="project__description__year">2016</span>
+						This synthesizer is a bit different. Instead of a standard piano layout,
+						this synth takes a base frequency and multiplies that frequency for each partial.
+						The number of partials can range from 1 to however many can fit on the screen, and
+						with the addition of each, the sound changes.
+					</p>
+				</div>
+			</div>
+		</li>	
+		<!-- <li class="project">
 			<h3 class="project__header">Redux Piano</h3>
 			<div class="project__wrapper">
 				<figure class="project__figure">
 					<div class="project__image">
-						<img alt="React Piano" src="imgs/redux-piano.jpg" />
+						<img alt="Redux Piano" src="imgs/redux-piano2.jpg" />
 					</div>
 					<div class="project__buttons">
 						<button class="project__button"><a class="project__button__link" href="https://github.com/silenceonthelam/redux-piano">repo</a></button>
@@ -51,20 +83,17 @@
 					</p>
 				</div>
 			</div>
-		</li>
-	</ul>
-
-	<ul class="projects">
+		</li> -->
 		<li class="project">
 			<h3 class="project__header">React Piano</h3>
 			<div class="project__wrapper">
 				<figure class="project__figure">
 					<div class="project__image">
-						<img alt="React Piano" src="imgs/react-piano.jpg" />
+						<img alt="React Piano" src="imgs/react-piano2.jpg" />
 					</div>
 					<div class="project__buttons">
 						<button class="project__button"><a class="project__button__link" href="https://github.com/silenceonthelam/ReactPiano">repo</a></button>
-						<button class="project__button"><a class="project__button__link" href="http://silenceonthelam.github.com/ReactPiano/">project</a></button>	
+						<button class="project__button"><a class="project__button__link" href="http://silenceonthelam.github.io/ReactPiano/">project</a></button>	
 					</div>
 				</figure>
 				<div class="project__info">
@@ -85,19 +114,16 @@
 				</div>
 			</div>
 		</li>
-	</ul>
-
-	<ul class="projects">
 		<li class="project">
 			<h3 class="project__header">CSS Photo Manipulator</h3>
 			<div class="project__wrapper">
 				<figure class="project__figure">
 					<div class="project__image">
-						<img alt="CSS Photo Manipulator" src="imgs/css-photo-manip.jpg" />
+						<img alt="CSS Photo Manipulator" src="imgs/css-photo-manip2.jpg" />
 					</div>
 					<div class="project__buttons">
 						<button class="project__button"><a class="project__button__link" href="https://github.com/silenceonthelam/CSS-photo-manipulator">repo</a></button>
-						<button class="project__button"><a class="project__button__link" href="http://silenceonthelam.github.com/CSS-photo-manipulator/">project</a></button>	
+						<button class="project__button"><a class="project__button__link" href="http://silenceonthelam.github.io/CSS-photo-manipulator/">project</a></button>	
 					</div>
 				</figure>
 				<div class="project__info">
@@ -120,7 +146,6 @@
 			</div>
 		</li>
 	</ul>
-
 
 	<h2 class="sub-header">
 		<span class="sub-header__name">No longer maintained</span> Old Projects
@@ -167,7 +192,7 @@
 					</div>
 					<div class="project__buttons">
 						<button class="project__button"><a class="project__button__link" href="https://github.com/silenceonthelam/TUMP">repo</a></button>
-						<button class="project__button"><a class="project__button__link" href="http://silenceonthelam.github.com/TUMP/">project</a></button>		
+						<button class="project__button"><a class="project__button__link" href="http://silenceonthelam.github.io/TUMP/">project</a></button>		
 					</div>
 				</figure>
 				<div class="project__info">
@@ -196,7 +221,7 @@
 					</div>
 					<div class="project__buttons">
 						<button class="project__button"><a class="project__button__link" href="https://github.com/silenceonthelam/webAudioPhone">repo</a></button>
-						<button class="project__button"><a class="project__button__link" href="http://silenceonthelam.github.com/webAudioPhone/">project</a></button>				
+						<button class="project__button"><a class="project__button__link" href="http://silenceonthelam.github.io/webAudioPhone/">project</a></button>				
 					</div>
 				</figure>
 				<div class="project__info">
@@ -227,7 +252,7 @@
 					</div>
 					<div class="project__buttons">
 						<button class="project__button"><a class="project__button__link" href="https://github.com/silenceonthelam/PhoEdit">repo</a></button>
-						<button class="project__button"><a class="project__button__link" href="http://silenceonthelam.github.com/PhoEdit/">project</a></button>			
+						<button class="project__button"><a class="project__button__link" href="http://silenceonthelam.github.io/PhoEdit/">project</a></button>			
 					</div>
 				</figure>
 				<div class="project__info">

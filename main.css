@@ -4,12 +4,12 @@
 }
 body {
 	color: #393e40;
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 	margin: 30px 60px;
 }
 a {
 	color: #00b662;
-	font-weight: 500;
+	font-weight: 600;
 	text-decoration: none;
 }
 a:hover {
@@ -30,7 +30,7 @@ img {
 	color: #a9b0b2;
 	display: block;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: 300;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
@@ -44,7 +44,7 @@ img {
 	color: #a9b0b2;
 	display: block;
 	font-size: 10.5px;
-	font-weight: 500;
+	font-weight: 300;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
@@ -70,7 +70,7 @@ img {
 .project__header {
 	color: #00b662;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: 600;
 	letter-spacing: .8px;
 	margin: 30px 0 20px;
 	text-transform: uppercase;
@@ -85,7 +85,6 @@ img {
 	box-shadow: 0 2px 0 0 rgba(0,0,0,.2);
 	display: block;
 	height: 180px;
-	/*overflow: hidden;*/
 	position: relative;
 	width: 320px;
 	max-width: 100%;
@@ -100,7 +99,7 @@ img {
 	border-radius: 2px;
 	box-shadow: 0 4px 0 0 #00a14a;
 	cursor: pointer;
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 	height: 40px;
 	margin-right: 5px;
 	margin-top: 10px;
@@ -144,17 +143,16 @@ img {
 	box-shadow: 0 4px 0 0 #b0bfb7;
 	color: #ddd;
 	cursor: default;
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-size: 13px;
 	font-weight: 600;
 	height: 40px;
 	letter-spacing: 1px;
-	text-transform: uppercase;
-	width: 100%;
-
 	line-height: 46px;
 	margin-right: 5px;
 	margin-top: 10px;
+	text-transform: uppercase;
+	width: 100%;
 }
 .project__button--disabled:focus {
 	outline: none;
@@ -164,8 +162,10 @@ img {
 	margin-right: 0;
 }
 .project__info {}
-.project__list__head {
-	font-weight: 400;
+.project__list__head,
+.project__description__year {
+	color: #596f77;
+	font-weight: 600;
 }
 .project__list {
 	display: flex;
@@ -175,10 +175,10 @@ img {
 }
 .project__list__item {
 	color: #00b662;
-	font-size: 12px;
-	font-weight: 500;
-	letter-spacing: .8px;
-	line-height: 18px;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 1.2px;
+	line-height: 15px;
 	list-style: none;
 	margin-right: 10px;
 	text-transform: uppercase;
@@ -190,9 +190,6 @@ img {
 	line-height: 1.4em;
 	font-size: 14px;
 	max-width: 600px;
-}
-.project__description__year {
-	font-weight: 500;
 }
 
 @media (max-width: 1023px) {
